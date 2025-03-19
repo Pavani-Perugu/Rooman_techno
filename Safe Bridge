@@ -1,0 +1,7 @@
+
+bridge = input("Enter the bridge string: ")
+
+if " " in bridge:
+    print("The string is not a safe bridge.")
+else:
+    print("The string is a safe bridge.")
