@@ -1,0 +1,7 @@
+user_string = "Debris was scattered all over in the place in the deserted region of Denmark"
+
+# Count occurrences of 'D' or 'd' (case insensitive)
+count_d = user_string.lower().count('d')
+
+# Print the result
+print("The number of 'D' in the string is:", count_d)
