@@ -1,0 +1,10 @@
+def number_to_hyphens(n):
+
+    if isinstance(n, int) and n >= 0:
+        return '-' * n
+    else:
+        raise ValueError("Input must be a non-negative integer")
+
+# Example usage
+num = int(input("Enter a number: "))
+print(number_to_hyphens(num))
